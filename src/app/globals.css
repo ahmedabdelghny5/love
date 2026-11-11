@@ -474,7 +474,7 @@
 /* Cinematic hero only: the shared gallery and viewer styles stay unchanged. */
 @layer components {
   .memory-cinematic-hero {
-    --hero-focal: 50% 25%;
+    --hero-focal: 50% 50%;
     --animate-memory-enter: cinematic-text-enter 650ms ease-out both;
     position: relative;
     isolation: isolate;
