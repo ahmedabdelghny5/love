@@ -18,7 +18,7 @@ const cairo = Cairo({
 
 const siteUrl = "https://ahmed-sara-memory.vercel.app";
 const title = `${displayNames} | حكايتنا الحلوة`;
-const description = "ومن هنا ابتدت حكايتنا... صور من يوم خطوبتنا، وذكريات حلوة هتفضل في قلوبنا دايمًا.";
+const description = "ومن هنا ابتدت حكايتنا... صور من أجمل أيامنا وذكرياتنا الحلوة سوا، ووصول حبيبنا عمر.";
 const cover = engagement.photos.find((photo) => photo.id === engagement.coverPhotoId);
 const previewImages = cover ? [{
   url: cover.src,
